@@ -6,8 +6,10 @@
 
 }
 
-body{
+body {
+    padding-top:5rem;
     color: var(--dark-color);
+    
 }
 
 
@@ -18,20 +20,24 @@ body{
 #content {
     min-height: 90vh;
 }
-.navbar{
-background-color: var(--dark-color);
+
+.navbar {
+    background-color: var(--dark-color);
 
 }
+
 .nav-link {
     color: var(--secondary-color) !important;
 }
+
 .nav-link:hover {
     color: var(--white-color) !important;
 }
 
 .nav-item>.active {
- color: var(--white-color) !important;
+    color: var(--white-color) !important;
 }
+
 .nav-item>.active:hover {
     color: var(--secondary-color) !important;
 }
@@ -43,20 +49,47 @@ background-color: var(--dark-color);
 .footer {
     background-color: var(--dark-color);
     color: var(--white-color);
+    bottom: 0;
+    position: absolute;
+    width: 100%;
 }
-.footer .social>a{
+
+.footer .social>a {
     color: (var(--white-color));
 }
+
 .footer .social>a:hover {
     opacity: .9;
     color: var(--secondary-color);
 }
-.footer #footerName{
+
+.footer #footerName {
     color: var(--white-color);
 }
-.footer #footerLogo{
+
+.footer #footerLogo {
     position: absolute;
     padding: 5px;
     width: 4rem;
-    bottom: 0;
+    bottom: 0 ;
+}
+
+
+.jsicon {
+    color: yellow;
+}
+
+.bsicon {
+    color: purple
+}
+
+.cssicon {
+    color: blue;
+}
+
+.htmlicon {
+    color: orangered
+}
+.checkList>li i{
+    color: var(--secondary-color);
 }

@@ -33,7 +33,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link"  href="/index.html">Home</a>
+                        <a class="nav-link" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/app.html">The App</a>
@@ -55,7 +55,15 @@
     <main id="content" class="flex-shrink-0">
         <div class="container">
 
-<h1>The App Page</h1>
+            <h1>The App UI Goes Here</h1>
+
+            <input id="message" type="text" placeholder="Enter a message" required>
+            <button id="btnSubmit" type="button" class="btn btn-dark">Display Message</button>
+
+
+
+
+            </form>
 
 
 
@@ -97,7 +105,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
     </script>
-
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/site.js"></script>
+    <script>
+        document.getElementById('btnSubmit').addEventListener("click", displayMessage)
+    </script>
+    
 </body>
 
 

@@ -20,9 +20,9 @@
     <link rel="icon" type="image/ico" href="/img/fav.ico">
 </head>
 
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top ">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html"><img src="/img/logocolortransparent.svg" width="45px"
                     alt="Navbar logo" class=" d-align-block align-text-center p-0">&nbsp;&nbsp;AppName</a>
@@ -54,8 +54,44 @@
     </nav>
     <main id="content" class="flex-shrink-0">
         <div class="container">
+            <!--Page Content-->
+            <div class="row row-cols-1 row-cols-md-2 ">
+                <div class="col order-last order-md-first ">
+                    <h1 class="display-5 fw-bold">APP NAME: A Coding Challenge</h1>
+                    <h4 class="lead"> Your project description goes here.</h4>
+
+                    <ul class="fa-ul pt-2 checkList">
+
+                        <li><span class=""><i class="fas fa-check-square"></i>JavaScript</span></li>
+                        <li><span class=""><i class="fas fa-check-square"></i>JS Fundamentals</span></li>
+                        <li><span class=""><i class="fas fa-check-square"></i>JavaScript Loops</span></li>
+                        <li><span class=""><i class="fas fa-check-square"></i>JavaScript Functions</span></li>
+                        <li><span class=""><i class="fas fa-check-square"></i>JavaScript Dom Manipulation</span>
+                        </li>
+                        <li><span class=""><i class="fas fa-check-square"></i>JavaScript Boolean Logic</span>
+                        </li>
+                    </ul>
 
 
+                    <a type="button" href="/app.html" class="btn btn-outline-dark">Try it Out.</a>
+                    <h5 class="fw-bold mt-5"> Technologies Used</h5>
+                    <div class="d-flex justify-content-start">
+                        <div class="row">
+                            <div class="col"><i class="fab fa-js-square fa-4x jsicon"></i></div>
+                            <div class="col"><i class="fab fa-bootstrap fa-4x bsicon"></i></div>
+                            <div class="col"><i class="fab fa-html5 fa-4x htmlicon"></i></div>
+                            <div class="col"><i class="fab fa-css3-alt fa-4x cssicon"></i></div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div class="col ">
+                    <img src="/img/APPNAMELogo.svg" alt="" class="image-fluid" width="500">
+                </div>
+            </div>
 
 
 
@@ -64,12 +100,12 @@
 
 
 
-    <footer class="footer fixed-footer mt-auto py-3">
+    <footer class="footer fixed-footer py-2">
         <div class="container-fluid">
             <div class="row row-cols-2 row-cols-lg-3 gy-2 ">
                 <div class="col order-lg-first d-flex flex-column justify-content-cetner">
                     <span class="text-muted text-center text-lg-start" id="Copyright">
-                        
+
                         <script>
                             document.getElementById("Copyright").innerHTML =
                                 `Copyright &copy;&nbsp;${new Date().getFullYear()} <span id="footerName">Alex Baker |
@@ -78,14 +114,14 @@
                     </span>
                 </div>
                 <div class="col d-flex justify-content-end justify-content-lg-center align-items-center">
-                    <img src="/img/logocolortransparent.svg"  alt="Navbar logo" class="" id="footerLogo">
+                    <img src="/img/logocolortransparent.svg" alt="Navbar logo" class="" id="footerLogo">
                 </div>
                 <div class=" d-flex align-items-center justify-content-start justify-content-lg-end">
-                        <div class="row">
-                            <div class="col social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></div>
-                            <div class="col social"><a href="#"><i class="fab fa-github fa-2x"></i></a></div>
-                            <div class="col social"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
-                        </div>
+                    <div class="row">
+                        <div class="col social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                        <div class="col social"><a href="#"><i class="fab fa-github fa-2x"></i></a></div>
+                        <div class="col social"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
+                    </div>
                 </div>
             </div>
 
