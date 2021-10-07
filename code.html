@@ -59,7 +59,7 @@
             <hr>
             <div class="container">
                 <div class="row row-cols-1 row-cols-lg-1 row-cols-xl-2 ">
-                    <div class="col-lg-8 col-md-12">
+                    <div class="col-lg-8 col-md-12 codeContainer">
                         <pre class="line-numbers">
                 <code class="language-js">
 function displayMessage(){
@@ -75,7 +75,7 @@ function displayMessage(){
             </pre>
 
                     </div>
-                    <div class="col-lg-4 col-md-12 gy-3">
+                    <div class="col-lg-4 col-md-12 gy-3 codeInstructions">
                         <p>The code is structured in one function.</p>
                         <h5>displayMessage()</h5>
                         <p>&nbsp;Prints out your message!</p>
@@ -90,34 +90,31 @@ function displayMessage(){
 
 
 
-    <footer class="footer fixed-footer mt-auto py-3">
-        <div class="container-fluid">
-            <div class="row row-cols-2 row-cols-lg-3 gy-2 ">
-                <div class="col order-lg-first d-flex flex-column justify-content-cetner">
-                    <span class="text-muted  text-lg-start" id="Copyright">
-
-                        <script>
-                            document.getElementById("Copyright").innerHTML =
-                                `Copyright &copy;&nbsp;${new Date().getFullYear()} <span id="footerName">Alex Baker |
+   <footer class="footer fixed-footer py-2">
+       <div class="container-fluid">
+           <div class="row row-cols-2 row-cols-lg-3 gy-2 ">
+               <div class="col order-lg-first d-flex flex-column justify-content-start ">
+                   <span class="text-muted text-start" id="Copyright">
+                       <script>
+                           document.getElementById("Copyright").innerHTML =
+                               `Copyright &copy;&nbsp;${new Date().getFullYear()} <span id="footerName">Alex Baker |
                                     alex@devalexbaker.com</span>`
-                        </script>
-                    </span>
-                </div>
-                <div class="col d-flex justify-content-end justify-content-lg-center align-items-center">
-                    <img src="/img/logocolortransparent.svg" alt="Navbar logo" class="" id="footerLogo">
-                </div>
-                <div class=" d-flex align-items-center justify-content-start justify-content-lg-end">
-                    <div class="row">
-                        <div class="col social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></div>
-                        <div class="col social"><a href="#"><i class="fab fa-github fa-2x"></i></a></div>
-                        <div class="col social"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </footer>
+                       </script>
+                   </span>
+               </div>
+               <div class="col d-flex justify-content-end justify-content-lg-center align-items-center">
+                   <img src="/img/logocolortransparent.svg" alt="Navbar logo" class="" id="footerLogo">
+               </div>
+               <div class=" d-flex align-items-center justify-content-start justify-content-lg-end">
+                   <div class="row">
+                       <div class="col social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                       <div class="col social"><a href="#"><i class="fab fa-github fa-2x"></i></a></div>
+                       <div class="col social"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
 
     <!-- sripts---Bootstrap 5.1.1-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

@@ -57,50 +57,46 @@
 
             <h1>The App UI Goes Here</h1>
 
-            <input id="message" type="text" placeholder="Enter a message" required>
-            <button id="btnSubmit" type="button" class="btn btn-dark">Display Message</button>
-
-
-
-
-            </form>
-
-
-
         </div>
     </main>
 
 
 
-    <footer class="footer fixed-footer mt-auto py-3">
-        <div class="container-fluid">
-            <div class="row row-cols-2 row-cols-lg-3 gy-2 ">
-                <div class="col order-lg-first d-flex flex-column justify-content-cetner">
-                    <span class="text-muted text-center text-lg-start" id="Copyright">
-
-                        <script>
-                            document.getElementById("Copyright").innerHTML =
-                                `Copyright &copy;&nbsp;${new Date().getFullYear()} <span id="footerName">Alex Baker |
+   <footer class="footer fixed-footer py-2">
+       <div class="container-fluid">
+           <div class="row row-cols-2 row-cols-lg-3 gy-2 ">
+               <div class="col order-lg-first d-flex flex-column justify-content-start ">
+                   <span class="text-muted text-start" id="Copyright">
+                       <script>
+                           document.getElementById("Copyright").innerHTML =
+                               `Copyright &copy;&nbsp;${new Date().getFullYear()} <span id="footerName">Alex Baker |
                                     alex@devalexbaker.com</span>`
-                        </script>
-                    </span>
-                </div>
-                <div class="col d-flex justify-content-end justify-content-lg-center align-items-center">
-                    <img src="/img/logocolortransparent.svg" alt="Navbar logo" class="" id="footerLogo">
-                </div>
-                <div class=" d-flex align-items-center justify-content-start justify-content-lg-end">
-                    <div class="row">
-                        <div class="col social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></div>
-                        <div class="col social"><a href="#"><i class="fab fa-github fa-2x"></i></a></div>
-                        <div class="col social"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </footer>
-
+                       </script>
+                   </span>
+               </div>
+               <div class="col d-flex justify-content-end justify-content-lg-center align-items-center">
+                   <img src="/img/logocolortransparent.svg" alt="Navbar logo" class="" id="footerLogo">
+               </div>
+               <div class=" d-flex align-items-center justify-content-start justify-content-lg-end">
+                   <div class="row">
+                       <div class="col social"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></div>
+                       <div class="col social"><a href="#"><i class="fab fa-github fa-2x"></i></a></div>
+                       <div class="col social"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+           <!--Template  for results  table-->
+           <template id="tableTemplate">
+               <tr>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+                   <td></td>
+               </tr>
+           </template>
     <!-- sripts    Bootstrap 5.1.1-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
